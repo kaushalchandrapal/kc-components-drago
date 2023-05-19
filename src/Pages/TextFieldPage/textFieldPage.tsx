@@ -10,7 +10,7 @@ const TextFieldPage = ({ name }: { name: string }) => {
       alignItems="center"
       
     >
-      <Typography>{name}</Typography>
+      <Typography variant="h5">{name}</Typography>
       <Box
         marginBottom={2}
       >
