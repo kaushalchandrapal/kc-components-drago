@@ -1,7 +1,7 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { CustomTextField } from "../../components/CustomTextField";
 
-const TextFieldPage = () => {
+const TextFieldPage = ({ name }: { name: string }) => {
   return (
     <Box
       display="flex"
@@ -10,6 +10,7 @@ const TextFieldPage = () => {
       alignItems="center"
       
     >
+      <Typography variant="h5">{name}</Typography>
       <Box
         marginBottom={2}
       >
