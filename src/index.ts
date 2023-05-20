@@ -1,2 +1,1 @@
-export * from './Pages/TextFieldPage';
-export * from './components/CustomTextField';
+export * from './components/TextFieldPage'

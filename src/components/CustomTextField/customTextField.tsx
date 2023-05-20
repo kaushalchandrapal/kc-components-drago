@@ -1,6 +1,7 @@
-import { TextField, Box } from "@mui/material"
+import { Box, TextField } from '@mui/material';
+import React from 'react';
 
-const CustomTextField = (props: any) => {
+export const CustomTextField = (props: any) => {
   return (
     <Box>
       <TextField
@@ -8,6 +9,4 @@ const CustomTextField = (props: any) => {
       />
     </Box>
   )
-}
-
-export default CustomTextField
+};
