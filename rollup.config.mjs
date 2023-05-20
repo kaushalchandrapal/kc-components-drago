@@ -4,6 +4,7 @@ import external from 'rollup-plugin-peer-deps-external';
 import { terser } from 'rollup-plugin-terser';
 import postcss from 'rollup-plugin-postcss';
 import typescript from '@rollup/plugin-typescript';
+import alias from '@rollup/plugin-alias';
 
 export default [
   {
@@ -20,6 +21,14 @@ export default [
       }
     ],
     plugins: [
+      alias({
+        entries: [
+          {
+            find: '@kcdrago',
+            replacement: './src'
+          }
+        ]
+      }),
       postcss({
         plugins: [],
         minimize: true,
