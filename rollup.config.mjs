@@ -25,7 +25,7 @@ export default [
         entries: [
           {
             find: 'TextFieldPage',
-            replacement: './src/TextFieldPage'
+            replacement: './src'
           }
         ]
       }),
