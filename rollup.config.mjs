@@ -24,8 +24,8 @@ export default [
       alias({
         entries: [
           {
-            find: '@kcdrago',
-            replacement: './src'
+            find: 'TextFieldPage',
+            replacement: './src/TextFieldPage'
           }
         ]
       }),
