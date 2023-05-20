@@ -1,6 +1,6 @@
 {
   "name": "kc-components-drago",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "Component lib",
   "main": "dist/index.ts",
   "module": "dist/index.es.js",
